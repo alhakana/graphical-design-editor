@@ -1,0 +1,63 @@
+package notification;
+
+public enum NotificationCode {
+	//view
+	EXIT_MAINFRAME,
+	SET_FOCUS,
+	//model - view
+	NEW_SLOT,
+	NEW_PAGE,
+	NEW_DOCUMENT,
+	NEW_SHARED_DOCUMENT,
+	NEW_PROJECT,
+	
+	// rename
+	NAME_EXISTS,
+	RENAME,
+	SPECIAL_CHA,
+	NAME_SIZE,
+	EMPTY,
+	LABEL,
+	
+	//delete
+	DELETE_ME,
+	REFRESH_NAME,
+	
+	//graphic toolbar
+	RECTANGLE,
+	CIRCLE,
+	TRIANGLE,
+	SELECT,
+	MOVE,
+	RESIZE,
+	ROTATE,
+	DELETE,
+	RESET,
+	RESET_COLOR,
+	SELECTION_RECTANGLE,
+	//graphic errors
+	SLOT_SELECT,
+	PAGE_SELECT, 
+	
+	// command
+	UNDO,
+	REDO,
+	ADD_COMMAND,
+
+	//file chooser
+	SAVE_AS,
+	IMPORT_PROJECT,
+	IMPORT_NAME,
+	SAVE_WORKSPACE,
+	SAME_DIR_NAME,
+	IMPORT_WORKSPACE,	
+	IMPORT_IMG,
+	// context
+	BROWSE,
+	LAST,
+	NEW,
+	GRAPH,
+	OPEN,
+	TEXT,
+	SAVE_CONTEXT
+}
